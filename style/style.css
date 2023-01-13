@@ -1,0 +1,82 @@
+ 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0; padding-left: 300px;
+   }
+   .gridContainer {
+    
+    grid-template-columns: repeat(1fr 1fr );
+    grid-template-rows: repeat(3, auto);
+      background-color: rgb(243, 227, 205);
+    position: relative;
+      margin: 0;
+     padding: 10px;
+
+     width: 33.33%;
+
+ 
+
+     grid-template-areas: 
+    " top top  "
+    " center center   "
+    " center center  "
+    "bottom bottom  "
+     
+      ;
+  }
+      
+      
+
+     
+  
+  .gridHeader {
+    grid-area: top;
+    background-color: rgba(196, 79, 79, 0.8);
+    border: 1px solid  rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    align-content: center;
+    
+    
+    
+  }
+  .gridMain {
+    grid-area: center;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding:10px;
+    font-size: 30px;
+     
+    
+    
+  }
+  .gridFooter {
+    grid-area: bottom;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    
+   }
+   .gridLeft {
+    grid-area: left;
+    width: 33%;
+
+     
+   }
+   .gridRight {
+    grid-area: right;
+   
+
+    
+   }
+
+
+ headerImage {
+    height: 150px; 
+ }   
+
+  
