@@ -6,7 +6,7 @@ html, body {
    }
    .gridContainer {
     
-    grid-template-columns: repeat(1fr 1fr );
+    grid-template-columns: repeat(2, 1fr );
     grid-template-rows: repeat(3, auto);
       background-color: rgb(243, 227, 205);
     position: relative;
