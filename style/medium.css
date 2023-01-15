@@ -1,0 +1,23 @@
+
+ 
+@media screen and (min-width: 32.5em) {
+    
+    html, body {
+      
+        padding-left: 0;
+        font-size: 10px;
+       }
+ 
+       .gridFooter {
+       
+     
+        text-align: center;
+        font-size: 25px;
+       }
+    h3 {
+        font-size: 30px;
+    }
+      }
+
+
+  

@@ -1,35 +1,43 @@
  
 html, body {
+   
+    margin: 0;   ;
+   }
+   .gridContainer {
+    display: grid;
     width: 100%;
     height: 100%;
-    margin: 0; padding-left: 300px;
-font-family: 'Source Sans Pro', sans-serif;
-}
-   .gridContainer {
-    
-    grid-template-columns: repeat(2, 1fr );
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr );
+    grid-template-rows: repeat(4, auto);
       background-color: rgb(243, 227, 205);
     position: relative;
       margin: 0;
      padding: 10px;
 
-     width: 33.33%;
-
- 
-
      grid-template-areas: 
-    " top top  "
-    " center center   "
-    " center center  "
-    "bottom bottom  "
+    " . top . "
+    " . center .  "
+    " . center . "
+    ". bottom . "
      
       ;
   }
       
-      
+a {
 
-     
+    text-decoration: underline;
+    text-emphasis-color: red ;
+}  
+
+  img {
+    height: 300px;
+    float: left; 
+    padding: 10px;
+    padding-right: 25px;
+  }   
+  h1{
+    font-size: 2.5em;
+  }
   
   .gridHeader {
     grid-area: top;
@@ -62,28 +70,11 @@ font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     
    }
-   .gridLeft {
-    grid-area: left;
-    width: 33%;
-
-     
-   }
-   .gridRight {
-    grid-area: right;
    
 
-    
-   }
 
-
- headerImage {
+ .headerImage {
     height: 150px; 
  }   
 
-
-font-family: 'Acme', sans-serif;
-font-family: 'Exo 2', sans-serif;
-font-family: 'IBM Plex Serif', serif;
-font-family: 'PT Serif', serif;
-font-family: 'Source Sans Pro', sans-serif;
   
